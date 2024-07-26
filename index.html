@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--
+// v0 by Vercel.
+// https://v0.dev/t/9RP7uHMfjAW
+-->
+
+    <div class="flex flex-col min-h-screen">
+      <header
+        class="bg-primary text-primary-foreground py-4 px-6 flex items-center justify-between"
+      >
+        <a class="flex items-center gap-2" href="#">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="w-6 h-6"
+          >
+            <path
+              d="M7 19H4.815a1.83 1.83 0 0 1-1.57-.881 1.785 1.785 0 0 1-.004-1.784L7.196 9.5"
+            ></path>
+            <path
+              d="M11 19h8.203a1.83 1.83 0 0 0 1.556-.89 1.784 1.784 0 0 0 0-1.775l-1.226-2.12"
+            ></path>
+            <path d="m14 16-3 3 3 3"></path>
+            <path d="M8.293 13.596 7.196 9.5 3.1 10.598"></path>
+            <path
+              d="m9.344 5.811 1.093-1.892A1.83 1.83 0 0 1 11.985 3a1.784 1.784 0 0 1 1.546.888l3.943 6.843"
+            ></path>
+            <path d="m13.378 9.633 4.096 1.098 1.097-4.096"></path>
+          </svg>
+          <span class="text-lg font-semibold">Eco Vend</span>
+        </a>
+        <nav class="hidden md:flex items-center gap-4">
+          <a class="hover:underline underline-offset-4" href="#"> About </a>
+          <a class="hover:underline underline-offset-4" href="#"> Products </a>
+          <a class="hover:underline underline-offset-4" href="#"> Locations </a>
+          <a class="hover:underline underline-offset-4" href="#"> Feedback </a>
+        </nav>
+        <button
+          class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-9 rounded-md px-3 md:hidden"
+        >
+          Menu
+        </button>
+      </header>
+      <main class="flex-1">
+        <section
+          class="bg-primary py-16 px-4 md:px-6 text-center text-primary-foreground"
+        >
+          <h1 class="text-4xl font-bold mb-4">Turning Trash into Treasure</h1>
+          <p class="text-lg mb-8">
+            Our recycling vending machines transform your waste into new
+            products, helping the environment one piece at a time.
+          </p>
+          <button
+            class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-11 rounded-md px-8 bg-primary-foreground text-primary hover:bg-primary/90"
+          >
+            Find a Vending Machine
+          </button>
+        </section>
+        <section id="about" class="py-12 md:py-16 px-4 md:px-6">
+          <div class="max-w-3xl mx-auto grid md:grid-cols-2 gap-8">
+            <div>
+              <h2 class="text-3xl font-bold mb-4">How It Works</h2>
+              <p class="text-muted-foreground mb-4">
+                Our state-of-the-art recycling vending machines use advanced
+                technology to break down and repurpose all types of waste
+                materials. Simply insert your trash, and watch as it's
+                transformed into new, sustainable products.
+              </p>
+              <button
+                class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-9 rounded-md px-3"
+              >
+                Learn More
+              </button>
+            </div>
+            <div>
+              <img
+                src="https://kentandsurreybylines.co.uk/wp-content/uploads/2023/04/herzlich-willkommen.jpg"
+                alt="Recycling Vending Machine"
+                class="rounded-lg"
+                width="500"
+                height="400"
+                style="aspect-ratio: 500/400; object-fit: cover"
+              />
+            </div>
+          </div>
+        </section>
+        <section id="products" class="bg-muted py-12 md:py-16 px-4 md:px-6">
+          <div class="max-w-3xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">Our Sustainable Products</h2>
+            <p class="text-muted-foreground mb-8">
+              From eco-friendly home goods to innovative building materials, our
+              recycling vending machines create a wide range of sustainable
+              products.
+            </p>
+            <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+              <div
+                class="rounded-lg border bg-card text-card-foreground shadow-sm"
+                data-v0-t="card"
+              >
+                <div class="p-6">
+                  <img
+                    src="https://suntrust.com.ph/sites/default/files/DIY-mini-home-garden-2.jpg"
+                    alt="Recycled Plastic Planters"
+                    class="rounded-lg mb-4"
+                    width="200"
+                    height="200"
+                    style="aspect-ratio: 200/200; object-fit: cover"
+                  />
+                  <h3 class="text-xl font-bold mb-2">
+                    Recycled Plastic Planters
+                  </h3>
+                  <p class="text-muted-foreground">
+                    Durable and eco-friendly planters made from recycled
+                    plastic.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="rounded-lg border bg-card text-card-foreground shadow-sm"
+                data-v0-t="card"
+              >
+                <div class="p-6">
+                  <img
+                    src="https://i.etsystatic.com/14028915/r/il/6db3c0/1630885474/il_fullxfull.1630885474_2zvc.jpg"
+                    alt="Recycled Paper Notebooks"
+                    class="rounded-lg mb-4"
+                    width="200"
+                    height="200"
+                    style="aspect-ratio: 200/200; object-fit: cover"
+                  />
+                  <h3 class="text-xl font-bold mb-2">
+                    Recycled Paper Notebooks
+                  </h3>
+                  <p class="text-muted-foreground">
+                    Stylish and sustainable notebooks made from recycled paper.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="rounded-lg border bg-card text-card-foreground shadow-sm"
+                data-v0-t="card"
+              >
+                <div class="p-6">
+                  <img
+                    src="https://m.media-amazon.com/images/I/71ElsOnrbaL._AC_UF894,1000_QL80_.jpg"
+                    alt="Recycled Aluminum Tumblers"
+                    class="rounded-lg mb-4"
+                    width="200"
+                    height="200"
+                    style="aspect-ratio: 200/200; object-fit: cover"
+                  />
+                  <h3 class="text-xl font-bold mb-2">
+                    Recycled Aluminum Tumblers
+                  </h3>
+                  <p class="text-muted-foreground">
+                    Durable and reusable tumblers made from recycled aluminum.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="locations" class="py-12 md:py-16 px-4 md:px-6">
+          <div class="max-w-3xl mx-auto">
+            <h2 class="text-3xl font-bold mb-4">Find a Vending Machine</h2>
+            <p class="text-muted-foreground mb-8">
+              Our recycling vending machines are conveniently located throughout
+              the city. Find the nearest one and start recycling today.
+            </p>
+            <div class="border rounded-lg overflow-hidden"></div>
+          </div>
+        </section>
+        <section id="feedback" class="bg-muted py-12 md:py-16 px-4 md:px-6">
+          <div class="max-w-3xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">Give Us Your Feedback</h2>
+            <p class="text-muted-foreground mb-8">
+              We're always looking to improve our recycling services. Let us
+              know how we're doing and what we can do better.
+            </p>
+            <div
+              class="rounded-lg border bg-card text-card-foreground shadow-sm"
+              data-v0-t="card"
+            >
+              <div class="p-6">
+                <form class="grid gap-4">
+                  <input
+                    class="flex h-10 rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 w-full"
+                    type="text"
+                    placeholder="Name"
+                  />
+                  <input
+                    class="flex h-10 rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 w-full"
+                    type="email"
+                    placeholder="Email"
+                  />
+                  <textarea
+                    class="flex min-h-[80px] rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 w-full"
+                    placeholder="Your feedback"
+                    rows="4"
+                  ></textarea>
+                  <button
+                    class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 w-full"
+                    type="submit"
+                  >
+                    Submit Feedback
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="bg-primary text-primary-foreground py-6 px-4 md:px-6">
+        <div
+          class="max-w-3xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4"
+        >
+          <div class="flex items-center gap-2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="w-6 h-6"
+            >
+              <path
+                d="M7 19H4.815a1.83 1.83 0 0 1-1.57-.881 1.785 1.785 0 0 1-.004-1.784L7.196 9.5"
+              ></path>
+              <path
+                d="M11 19h8.203a1.83 1.83 0 0 0 1.556-.89 1.784 1.784 0 0 0 0-1.775l-1.226-2.12"
+              ></path>
+              <path d="m14 16-3 3 3 3"></path>
+              <path d="M8.293 13.596 7.196 9.5 3.1 10.598"></path>
+              <path
+                d="m9.344 5.811 1.093-1.892A1.83 1.83 0 0 1 11.985 3a1.784 1.784 0 0 1 1.546.888l3.943 6.843"
+              ></path>
+              <path d="m13.378 9.633 4.096 1.098 1.097-4.096"></path>
+            </svg>
+            <span class="text-lg font-semibold">Eco Vend</span>
+          </div>
+          <nav class="flex items-center gap-4">
+            <a class="hover:underline underline-offset-4" href="#">
+              Privacy Policy
+            </a>
+            <a class="hover:underline underline-offset-4" href="#">
+              Terms of Service
+            </a>
+            <a class="hover:underline underline-offset-4" href="#">
+              Contact Us
+            </a>
+          </nav>
+          <p class="text-sm text-muted-foreground">
+            © 2024 Eco Vend. All rights reserved.
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
